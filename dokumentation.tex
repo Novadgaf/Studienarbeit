@@ -6,12 +6,40 @@
 %%
 %% Autor: Michael Gruben
 %% Datum: 15.05.2013
-%%
-%% Autor: Markus Barthel
-%% Datum: 22.08.2014
 %%**************************************************************
-
+\documentclass[%
+	enabledeprecatedfontcommands,
+	pdftex,
+	oneside,		% Einseitiger Druck.
+	12pt,			% Schriftgroesse
+	parskip=half,	% Halbe Zeile Abstand zwischen Absätzen.
+	headsepline,	% Linie nach Kopfzeile.
+	footsepline,	% Linie vor Fusszeile.
+	abstracton,	    % Abstract Überschriften
+	ngerman,		% Translator
+]{scrreprt}
 \input{ads/header}
+
+% Ab jetzt können auch Umlaute verwendet werden
+
+%falls pdftitel = titel der Arbeit
+\newcommand{\titel}{\pdftitel}
+%bei unterschiedlichen Titeln
+%\newcommand{\titel}{In der Regel haben wir einen zweizeiligen
+% Bachelorthesistitel}
+\newcommand{\martrikelnr}{2463229}
+\newcommand{\kurs}{INF20ITA}
+\newcommand{\datumAbgabe}{9. Juni 2023}
+\newcommand{\firma}{Firma GmbH}
+\newcommand{\firmenort}{Firmenort}
+\newcommand{\abgabeort}{Stuttgart}
+\newcommand{\abschluss}{Bachelor of Science}
+\newcommand{\studiengang}{Studienganges Informatik}
+\newcommand{\dhbw}{Stuttgart}
+\newcommand{\betreuer}{Alfred Becker}
+\newcommand{\gutachter}{Dr. Silvana Koch-Mehrin}
+\newcommand{\zeitraum}{12 Wochen}
+\newcommand{\arbeitsart}{\arbeit}
 
 \makeglossaries
 \input{ads/glossary}
@@ -24,12 +52,13 @@
 	\end{spacing}
 	\newpage
 
-	\pagenumbering{Roman}
+	\renewcommand{\thepage}{\Roman{page}}
+	\setcounter{page}{1}
 
-	% Sperrvermekr (Porsche)
-	% muss jeweils unterschrieben werden vom Abteilungsleiter
-%	\includepdf[pages=-]{ads/sperrvermerk.pdf}
-
+	% Sperrvermerk
+	%\input{ads/sperrvermerk}
+	%\newpage
+	
 	% Erklärung
 	\input{ads/erklaerung}
 	\newpage
@@ -38,73 +67,69 @@
 	\input{ads/abstract}
 	\newpage
 
-	\pagestyle{plain}		% nur Seitenzahlen im Fuß
-
-	% Abkürzungsverzeichnis
-	\cleardoublepage
-	\input{ads/acronyms}
-
-	% Abbildungsverzeichnis
-	\cleardoublepage
-	\listoffigures
-	
-	\RedeclareSectionCommand[beforeskip=\kapitelabstand         ]{chapter} % stellt Abstand vor Kapitelüberschriften ein
+	\pagestyle{plain}
 
 	% Inhaltsverzeichnis
 	\begin{spacing}{1.1}
-		\begingroup
-		
-			% auskommentieren für Seitenzahlen unter Inhaltsverzeichnis
-			\renewcommand*{\chapterpagestyle}{empty}
-			\pagestyle{empty}
-			
-			
-			\setcounter{tocdepth}{1}
-			%für die Anzeige von Unterkapiteln im Inhaltsverzeichnis
-			%\setcounter{tocdepth}{2}
-			
-			\tableofcontents
-			\clearpage
-		\endgroup
+		\setcounter{tocdepth}{1}
+		%für die Anzeige von Unterkapiteln im Inhaltsverzeichnis
+		%\setcounter{tocdepth}{2}
+		\tableofcontents
 	\end{spacing}
 	\newpage
 
+	\renewcommand{\thepage}{\arabic{page}}
+	\setcounter{page}{1}
+	
+	% Inhalt
+	\input{content/01kapitel}
+	\input{content/02kapitel}
+    \input{content/03kapitel}
+    \input{content/04kapitel}
+	\input{content/05kapitel}
+	\input{content/06kapitel}
+	
+	% Anhang
+	\clearpage
+	\pagenumbering{roman}
+
+	% Abbildungsverzeichnis
+	\cleardoublepage
+	\phantomsection \label{listoffig}
+	\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+	\listoffigures
+
 	%Tabellenverzeichnis
-%	\cleardoublepage
-%	\listoftables
+	%\cleardoublepage
+	%\phantomsection \label{listoftab}
+	%\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+	%\listoftables
 
 	% Quellcodeverzeichnis
 	%\cleardoublepage
-%	\lstlistoflistings
-%	\cleardoublepage
-
-	\pagenumbering{arabic}
-	
-	\pagestyle{headings}		% Kolumnentitel im Kopf, Seitenzahlen im Fuß
-
-	% Inhalt
-	\foreach \i in {01,02,03,04,05,06,07,08,09,...,99} {%
-		\edef\FileName{content/\i kapitel}%
-			\IfFileExists{\FileName}{%
-				\input{\FileName}
-			}
-			{%
-				%file does not exist
-			}
-	}
-
-	\clearpage
+	%\phantomsection \label{listoflist}
+	%\addcontentsline{toc}{chapter}{Listings}
+	%\lstlistoflistings
 
 	% Literaturverzeichnis
 	\cleardoublepage
-	\printbibliography
+	\phantomsection \label{listoflit}
+	\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+	
+	%Bib style
+	%\bibliographystyle{agsm} %Havard
+	\bibliographystyle{ieeetr} %Durchnummeriert
+	%\bibliographystyle{amsalpha} %Kürzel für Autor und Jahr
+	%see more: http://amath.colorado.edu/documentation/LaTeX/reference/faq/bibstyles.pdf
+	
+	\bibliography{ArbeitBib}
 
+	% Abkürzungsverzeichnis
+	\cleardoublepage
+	\phantomsection \label{listofacs}
+	\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}
+	\input{ads/acronyms}
+	
 	% Glossar
-%	\printglossary[style=altlist,title=\langglossar]
-	
-	% sonstiger Anhang
-%	\clearpage
-%	\appendix
-%	\input{ads/appendix}
-	
+	\printglossary[style=altlist,title=Glossar]
 \end{document}

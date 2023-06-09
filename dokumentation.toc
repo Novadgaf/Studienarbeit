@@ -1,10 +1,146 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{\nonumberline Abkürzungsverzeichnis}{III}{chapter*.2}%
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{IV}{chapter*.3}%
-\contentsline {chapter}{\numberline {1}Das erste Kapitel}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Hallo zwischending}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Beispiel Code-schnipsel einbinden}{4}{chapter.3}%
-\contentsline {section}{\numberline {3.1}lorem ipsum}{4}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Verweis auf Code}{5}{section.3.2}%
-\contentsline {chapter}{\nonumberline Literatur}{6}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivation}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Zielsetzung dieser Arbeit}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Forschungsschwerpunkte}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Struktur}{3}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Einführung in die digitale Bildverarbeitung}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Bildgrundlagen}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Verständnis von Pixeln}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Bildrepräsentation}{5}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Farbräume}{5}{subsection.2.1.3}%
+\contentsline {subsubsection}{\nonumberline RGB-Farbraum}{5}{subsubsection*.4}%
+\contentsline {subsubsection}{\nonumberline HSV-Farbraum}{5}{subsubsection*.6}%
+\contentsline {subsubsection}{\nonumberline Graustufen}{6}{subsubsection*.8}%
+\contentsline {section}{\numberline {2.2}Bildvorverarbeitung}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Rauschunterdrückung}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Bildverbesserung}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Farbraum Umwandlung}{8}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Farbfilterung}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Formerkennung}{9}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Kanten-Erkennungsmethoden}{9}{subsection.2.4.1}%
+\contentsline {subsubsection}{\nonumberline Sobel-Operator}{9}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Canny-Operator}{10}{subsubsection*.12}%
+\contentsline {subsection}{\numberline {2.4.2}Konturerkennung}{10}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Formerkennung}{10}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Bildsegmentierung}{11}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Techniken zur Bildsegmentierung}{11}{subsection.2.5.1}%
+\contentsline {subsubsection}{\nonumberline Schwellenwertsetzung}{11}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline Clustering}{12}{subsubsection*.16}%
+\contentsline {section}{\numberline {2.6}Bildtransformation}{12}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Räumliche Transformationen}{12}{subsection.2.6.1}%
+\contentsline {subsubsection}{\nonumberline Skalierung}{12}{subsubsection*.18}%
+\contentsline {subsubsection}{\nonumberline Rotation}{13}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline Translation}{13}{subsubsection*.22}%
+\contentsline {subsection}{\numberline {2.6.2}Transformationen im Frequenzbereich}{13}{subsection.2.6.2}%
+\contentsline {subsubsection}{\nonumberline Fourier-Transformation}{13}{subsubsection*.24}%
+\contentsline {subsubsection}{\nonumberline Wavelet-Transformation}{14}{subsubsection*.26}%
+\contentsline {subsection}{\numberline {2.6.3}Anwendungen von Bildtransformationen}{14}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}Merkmalsextraktion}{14}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Techniken zur Merkmalsextraktion}{15}{subsection.2.7.1}%
+\contentsline {subsubsection}{\nonumberline SIFT}{15}{subsubsection*.30}%
+\contentsline {subsubsection}{\nonumberline SURF}{15}{subsubsection*.32}%
+\contentsline {chapter}{\numberline {3}Die Architektur und Funktionalität von Schachcomputern}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Einleitung}{16}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Die Entwicklung von Schachcomputern}{16}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Rolle und Zweck von Schachcomputern}{17}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Schachcomputer ohne maschinelles Lernen}{17}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Definition}{17}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Positionsbewertung}{18}{subsection.3.2.2}%
+\contentsline {subsubsection}{\nonumberline Materialgleichgewicht}{18}{subsubsection*.34}%
+\contentsline {subsubsection}{\nonumberline Aktivität der Figuren}{18}{subsubsection*.36}%
+\contentsline {subsubsection}{\nonumberline Kontrolle des Zentrums}{19}{subsubsection*.38}%
+\contentsline {subsubsection}{\nonumberline Kontrolle der Felder}{19}{subsubsection*.40}%
+\contentsline {subsubsection}{\nonumberline Königssicherheit}{19}{subsubsection*.42}%
+\contentsline {subsubsection}{\nonumberline Bauernstruktur}{19}{subsubsection*.44}%
+\contentsline {subsection}{\numberline {3.2.3}Suchtechniken}{19}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Alpha-Beta-Pruning}{20}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Zugsortierung}{22}{subsection.3.2.5}%
+\contentsline {subsubsection}{\nonumberline Schlagzüge}{22}{subsubsection*.46}%
+\contentsline {subsubsection}{\nonumberline Killerzüge}{22}{subsubsection*.48}%
+\contentsline {subsubsection}{\nonumberline Geschichts-Heuristik}{23}{subsubsection*.50}%
+\contentsline {subsubsection}{\nonumberline Gegen-Züge}{23}{subsubsection*.52}%
+\contentsline {subsubsection}{\nonumberline Hauptvarianten-Züge}{23}{subsubsection*.54}%
+\contentsline {subsection}{\numberline {3.2.6}Transpositionstabellen}{23}{subsection.3.2.6}%
+\contentsline {subsubsection}{\nonumberline Verständnis der Transpositionstabellen}{23}{subsubsection*.56}%
+\contentsline {subsubsection}{\nonumberline Speicherung und Abfrage von zuvor berechneten Positionen}{24}{subsubsection*.58}%
+\contentsline {subsection}{\numberline {3.2.7}Spielphasen}{25}{subsection.3.2.7}%
+\contentsline {subsubsection}{\nonumberline Eröffnung}{25}{subsubsection*.60}%
+\contentsline {subsubsection}{\nonumberline Mittelspiel}{25}{subsubsection*.62}%
+\contentsline {subsubsection}{\nonumberline Endspiel}{25}{subsubsection*.64}%
+\contentsline {section}{\numberline {3.3}Schachcomputer auf Basis von maschinellem Lernen}{26}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Definition}{26}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Monte Carlo Tree Search}{27}{subsection.3.3.2}%
+\contentsline {subsubsection}{\nonumberline Auswahl}{27}{subsubsection*.66}%
+\contentsline {subsubsection}{\nonumberline Expansion}{27}{subsubsection*.68}%
+\contentsline {subsubsection}{\nonumberline Simulation}{27}{subsubsection*.70}%
+\contentsline {subsubsection}{\nonumberline Rückwärtspropagation}{27}{subsubsection*.72}%
+\contentsline {subsection}{\numberline {3.3.3}Übergang von nicht-maschinellem Lernen zu Schachcomputern auf Basis von maschinellem Lernen}{28}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {4}Diskussion über die Benutzeroberfläche und Programmiersprache}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Auswahl der Programmiersprache}{30}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Python}{30}{subsection.4.1.1}%
+\contentsline {subsubsection}{\nonumberline Vorteile von Python}{30}{subsubsection*.77}%
+\contentsline {paragraph}{\nonumberline Einfache Syntax}{30}{paragraph*.79}%
+\contentsline {paragraph}{\nonumberline Umfangreiche Bibliotheksunterstützung}{30}{paragraph*.81}%
+\contentsline {paragraph}{\nonumberline Gemeinschaft und Ressourcen}{30}{paragraph*.83}%
+\contentsline {paragraph}{\nonumberline Python und Schachprogrammierung}{31}{paragraph*.85}%
+\contentsline {subsubsection}{\nonumberline Nachteile von Python}{31}{subsubsection*.87}%
+\contentsline {paragraph}{\nonumberline Geschwindigkeit}{31}{paragraph*.89}%
+\contentsline {paragraph}{\nonumberline Speicherverbrauch}{31}{paragraph*.91}%
+\contentsline {subsubsection}{\nonumberline Verwendung in der Industrie}{31}{subsubsection*.93}%
+\contentsline {subsection}{\numberline {4.1.2}Alternativen zu Python}{32}{subsection.4.1.2}%
+\contentsline {subsubsection}{\nonumberline Java}{32}{subsubsection*.95}%
+\contentsline {subsubsection}{\nonumberline C++}{32}{subsubsection*.98}%
+\contentsline {subsection}{\numberline {4.1.3}Vergleich von Python, Java und C++}{33}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Diskussion über Bibliotheken/Frameworks}{33}{section.4.2}%
+\contentsline {subsubsection}{\nonumberline Pygame}{33}{subsubsection*.100}%
+\contentsline {subsubsection}{\nonumberline OpenCV}{33}{subsubsection*.103}%
+\contentsline {subsubsection}{\nonumberline Alternativen zu Pygame und OpenCV}{34}{subsubsection*.105}%
+\contentsline {section}{\numberline {4.3}Benutzeroberfläche und Benutzererfahrung}{34}{section.4.3}%
+\contentsline {subsubsection}{\nonumberline Bedeutung einer benutzerfreundlichen Umgebung}{35}{subsubsection*.107}%
+\contentsline {subsubsection}{\nonumberline Designprinzipien für eine benutzerfreundliche Umgebung}{35}{subsubsection*.109}%
+\contentsline {paragraph}{\nonumberline Einfachheit}{35}{paragraph*.111}%
+\contentsline {paragraph}{\nonumberline Konsistenz}{35}{paragraph*.113}%
+\contentsline {paragraph}{\nonumberline Rückmeldung und Reaktionszeit}{35}{paragraph*.115}%
+\contentsline {paragraph}{\nonumberline Benutzerkontrolle}{36}{paragraph*.117}%
+\contentsline {section}{\numberline {4.4}Schlussfolgerung}{36}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Erstellung der Anwendung}{37}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Design und Architektur}{37}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Figuren Klasse}{37}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Schachbrett Klasse}{39}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Klasse zur Kameraimplementierung}{39}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Klasse zur Zuggenerierung}{40}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Move Klasse}{41}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}Computer Klasse}{41}{subsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.1.7}PyChess Klasse}{41}{subsection.5.1.7}%
+\contentsline {section}{\numberline {5.2}Spielverlauf}{42}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Voreinstellungen}{42}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Gameloop}{44}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Zugerstellung}{45}{subsection.5.2.3}%
+\contentsline {subsubsection}{\nonumberline Spezialzüge}{46}{subsubsection*.119}%
+\contentsline {subsubsection}{\nonumberline Zug-Flags}{47}{subsubsection*.121}%
+\contentsline {subsection}{\numberline {5.2.4}Zug des Spielers}{48}{subsection.5.2.4}%
+\contentsline {subsubsection}{\nonumberline Manueller Zug}{48}{subsubsection*.123}%
+\contentsline {subsubsection}{\nonumberline Zug durch Bildaufnahme}{49}{subsubsection*.125}%
+\contentsline {paragraph}{\nonumberline Bildaufnahme}{50}{paragraph*.127}%
+\contentsline {paragraph}{\nonumberline Zugerkennung}{50}{paragraph*.129}%
+\contentsline {subsection}{\numberline {5.2.5}Zug der Engine}{54}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Spielen eines Zuges}{55}{subsection.5.2.6}%
+\contentsline {section}{\numberline {5.3}Herausforderungen im Entwicklungsprozess}{56}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Engine-Entwicklung und Leistung}{56}{subsection.5.3.1}%
+\contentsline {subsubsection}{\nonumberline Zeitaufwendige Zugberechnung}{56}{subsubsection*.132}%
+\contentsline {subsubsection}{\nonumberline Alpha-Beta-Pruning und andere Lösungen}{57}{subsubsection*.134}%
+\contentsline {subsubsection}{\nonumberline Potenzielle Alternativen}{57}{subsubsection*.136}%
+\contentsline {subsubsection}{\nonumberline Verwendung von Stockfish}{57}{subsubsection*.138}%
+\contentsline {subsection}{\numberline {5.3.2}Kamera-Blockaden und irreführende Wahrnehmungen}{57}{subsection.5.3.2}%
+\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{59}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Fazit}{59}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Ausblick}{59}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Online Funktionalität}{59}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Speichern der Spiele}{59}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Spiel auf Zeit}{60}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Weitere Spielmodi}{60}{subsection.6.2.4}%
+\contentsline {chapter}{Abbildungsverzeichnis}{i}{section*.139}%
+\contentsline {chapter}{Literaturverzeichnis}{iii}{section*.141}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{vi}{section*.143}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

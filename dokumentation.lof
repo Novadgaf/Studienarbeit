@@ -1,8 +1,39 @@
 \babel@toc {ngerman}{}\relax 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Chess.com Spielerzahlen Stand 2022}}{1}{figure.1.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Das Logo der Musterfirma\FN@sf@gobble@optonly }}{2}{figure.1.1}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces HSV Farbraum Palette}}{6}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Verschiedene Arten des Rauschens}}{7}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces (A) Sobel vertikal-Operator (B) Sobel horizontal-Operator}}{9}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Schwellenwertsetzung Beispiel}}{11}{figure.2.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Springer Map}}{18}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Minimax Algorithmus}}{20}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Alpha-Beta-Pruning}}{21}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Beispiel einer Transposition}}{24}{figure.3.4}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Figuren Klassen}}{38}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Schachbrett Klasse}}{39}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces ChessCam Klasse}}{40}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Move Klasse}}{41}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces PyChess Gameloop}}{42}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Schachbrett markieren Dialog}}{43}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Farbfilter Dialog}}{43}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces PyChess Game GUI}}{44}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Generierung der validen Spielzüge}}{45}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Figuren Offset König}}{46}{figure.5.10}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces En Passant}}{47}{figure.5.11}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Rochade}}{47}{figure.5.12}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Auswahl zwischen manuellem Zug und Kamera}}{48}{figure.5.13}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Auswahl zwischen manuellem Zug und Kamera}}{49}{figure.5.14}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Vier Punkte Transformation}}{50}{figure.5.15}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Bildvorverarbeitung}}{50}{figure.5.16}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Berechnung der Unterschiede in den Bildern}}{51}{figure.5.17}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Konturen im Bild}}{52}{figure.5.18}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Funktion für die Konturen-Größe $f(x) = 1000 \cdot e^{-0.01x}$}}{53}{figure.5.19}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Visualisierung des gefundenen Zuges mit Boxen}}{53}{figure.5.20}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Zug rückgängig machen}}{54}{figure.5.21}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Funktion zum Spielen eines Zuges}}{56}{figure.5.22}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

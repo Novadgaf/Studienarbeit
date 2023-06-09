@@ -1,15 +1,71 @@
-[0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'dokumentation.blg'
-[58] biber-darwin:340> INFO - === Wed Nov  2, 2022, 13:45:48
-[70] Biber.pm:418> INFO - Reading 'dokumentation.bcf'
-[148] Biber.pm:972> INFO - Found 4 citekeys in bib section 0
-[159] Biber.pm:4383> INFO - Processing section 0
-[168] Biber.pm:4574> INFO - Looking for bibtex file 'bibliographie.bib' for section 0
-[169] bibtex.pm:1713> INFO - LaTeX decoding ...
-[173] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliographie.bib'
-[222] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[223] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[223] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de_DE'
-[223] Biber.pm:4209> INFO - No sort tailoring available for locale 'de_DE'
-[229] bbl.pm:654> INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
-[230] bbl.pm:757> INFO - Output to dokumentation.bbl
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: dokumentation.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Database file #1: ArbeitBib.bib
+Warning--empty journal in Brian_2017_spacefoundation
+Warning--empty journal in J.F._Blinn_2005_ieee
+Warning--empty journal in Vladimir_Chernov_2023_sciencedirect
+Warning--empty journal in Dr._Daniel_Slieter_2023_dhbw-stuttgart
+Warning--empty journal in Hannes_Bonasch_2023
+Warning--empty journal in Noor_A._Ibraheem_2012_psu
+Warning--empty journal in AHMED_SHIHAB_AHMED_2018_jatit
+Warning--empty journal in Xin-Yi_Gong_2018_springer
+Warning--empty journal in Sambarta_Dasgupta_2009_springer
+Warning--empty journal in G.B._Coleman_1979_ieee
+Warning--empty journal in Don_Lancaster_2007_ollintec
+Warning--empty journal in S._Sridhar_2014_mecs-press
+Warning--empty journal in H._Burkhardt_uni-freiburg
+Warning--empty year in H._Burkhardt_uni-freiburg
+Warning--empty journal in Shambhavi_Jain_2017_ieee
+Warning--empty journal in Chris_Higgins_2017_mentalfloss
+Warning--empty journal in Larry_Greenemeier_2017_scientificamerican
+Warning--empty journal in Jos_W._H_1970_researchgate
+Warning--empty journal in David_Silver_2023_deepmind
+Warning--empty journal in Ziad_Salloum_2019_towardsdatascience
+Warning--empty journal in Demis_Hassabis_2017_nature
+Warning--empty journal in Uxpin_2022_uxpin
+You've used 29 entries,
+            1876 wiz_defined-function locations,
+            642 strings with 9613 characters,
+and the built_in function-call counts, 4425 in all, are:
+= -- 404
+> -- 152
+< -- 0
++ -- 69
+- -- 40
+* -- 234
+:= -- 693
+add.period$ -- 54
+call.type$ -- 29
+change.case$ -- 26
+chr.to.int$ -- 0
+cite$ -- 51
+duplicate$ -- 251
+empty$ -- 523
+format.name$ -- 40
+if$ -- 1059
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 28
+newline$ -- 116
+num.names$ -- 26
+pop$ -- 150
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 58
+stack$ -- 0
+substring$ -- 36
+swap$ -- 14
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 22
+while$ -- 28
+width$ -- 31
+write$ -- 261
+(There were 22 warnings)

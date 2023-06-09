@@ -1,0 +1,8 @@
+{"rule":"DE_CASE","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q Das Rauschen kann verschiedene Formen annehmen, wie zum Beispiel das additive / multiplikative Gauss'sches Rauschen, ungleich verteiltes Rauschen und Salt-and-Pepper-Rauschen.\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QFiguren Klassen Neben der allgemeinen Figuren Klasse, gibt es für jede Figur noch eine einzelne Klasse, die jeweils von der Figuren Klasse erbt.\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QFiguren Klassen Die Klasse \\E(?:Dummy|Ina|Jimmy-)[0-9]+$"}
+{"rule":"FRAGEZEICHEN_STATT_PUNKT","sentence":"^\\QSollte es sich um einen Sonderzug handeln werden bestimmte flags gesetzt, die dies Kennzeichnen.\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QPyChess Game Nach Starten des Spiels wird das Spiel initialisiert.\\E$"}
+{"rule":"SENT_START_SIN_PLU","sentence":"^\\QSchachbrett markieren Nachdem das Schachbrett markiert wurde, erscheint ein weiterer Dialog.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QDie Zuege werden ueber den moveGenerator erstellt.\\E$"}
+{"rule":"DE_AGREEMENT","sentence":"^\\QIm Verlauf der Entwicklung der Applikation traten ins besondere Probleme bei der Erstellung einer eigenen Schach-Engine und der Kameraauswertung auf.\\E$"}

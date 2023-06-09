@@ -1,149 +1,147 @@
-% $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
-% Do not modify the above lines!
-%
-% This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated by
-% biber as required.
-%
-\begingroup
-\makeatletter
-\@ifundefined{ver@biblatex.sty}
-  {\@latex@error
-     {Missing 'biblatex' package}
-     {The bibliography requires the 'biblatex' package.}
-      \aftergroup\endinput}
-  {}
-\endgroup
+\begin{thebibliography}{10}
 
+\bibitem{Brian_2017_spacefoundation}
+Brian, ``Digital image processing - medical applications - space foundation,''
+  2017.
+\newblock
+  \url{http://www.spacefoundation.org/space_technology_hal/digital-image-processing-medical-applications/}.
 
-\refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{baumgartner:2002}{book}{}
-      \name{author}{3}{}{%
-        {{hash=96df18bf20a7fe641effbe0eeb2da9de}{%
-           family={Baumgartner},
-           familyi={B\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-        {{hash=d62cbcab585b3aa853a74d73e8752c7d}{%
-           family={Häfele},
-           familyi={H\bibinitperiod},
-           given={Hartmut},
-           giveni={H\bibinitperiod}}}%
-        {{hash=87ec11187948407b7a7d0c930d24f2df}{%
-           family={Maier-Häfele},
-           familyi={M\bibinithyphendelim H\bibinitperiod},
-           given={Kornelia},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Innsbruck}%
-      }
-      \list{publisher}{1}{%
-        {StudienVerl.}%
-      }
-      \strng{namehash}{e14bd0ad831588d3965026ae31f608c4}
-      \strng{fullhash}{e14bd0ad831588d3965026ae31f608c4}
-      \strng{bibnamehash}{e14bd0ad831588d3965026ae31f608c4}
-      \strng{authorbibnamehash}{e14bd0ad831588d3965026ae31f608c4}
-      \strng{authornamehash}{e14bd0ad831588d3965026ae31f608c4}
-      \strng{authorfullhash}{e14bd0ad831588d3965026ae31f608c4}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{3-7065-1771-X}
-      \field{title}{E-Learning Praxishandbuch : Auswahl von Lernplattformen; Marktübersicht, Funktionen, Fachbegriffe}
-      \field{year}{2002}
-    \endentry
-    \entry{dreyfus:1980}{report}{}
-      \name{author}{2}{}{%
-        {{hash=4bdec49b95685de4f29e0764312d95ea}{%
-           family={Dreyfus},
-           familyi={D\bibinitperiod},
-           given={Stuard\bibnamedelima E.},
-           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=e59386cfa3273b049f85d5e655743b2b}{%
-           family={Dreyfus},
-           familyi={D\bibinitperiod},
-           given={Hubert\bibnamedelima L.},
-           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {University of California, Berkley}%
-      }
-      \strng{namehash}{fefa577577d45d9b850bdfa4a035757f}
-      \strng{fullhash}{fefa577577d45d9b850bdfa4a035757f}
-      \strng{bibnamehash}{fefa577577d45d9b850bdfa4a035757f}
-      \strng{authorbibnamehash}{fefa577577d45d9b850bdfa4a035757f}
-      \strng{authornamehash}{fefa577577d45d9b850bdfa4a035757f}
-      \strng{authorfullhash}{fefa577577d45d9b850bdfa4a035757f}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{A Five-Stage Model Of The Mental Activities Involved In Directed Skill Acquisition}
-      \field{type}{techreport}
-      \field{year}{1980}
-      \verb{urlraw}
-      \verb http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf
-      \endverb
-      \verb{url}
-      \verb http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf
-      \endverb
-    \endentry
-    \entry{fsf:2007}{online}{}
-      \name{author}{1}{}{%
-        {{hash=cb96118d65be9f05ad10bd5cfdaf0f6d}{%
-           family={{Free Software Foundation}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{cb96118d65be9f05ad10bd5cfdaf0f6d}
-      \strng{fullhash}{cb96118d65be9f05ad10bd5cfdaf0f6d}
-      \strng{bibnamehash}{cb96118d65be9f05ad10bd5cfdaf0f6d}
-      \strng{authorbibnamehash}{cb96118d65be9f05ad10bd5cfdaf0f6d}
-      \strng{authornamehash}{cb96118d65be9f05ad10bd5cfdaf0f6d}
-      \strng{authorfullhash}{cb96118d65be9f05ad10bd5cfdaf0f6d}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{GNU AFFERO GENERAL PUBLIC LICENSE}}
-      \field{year}{2007}
-      \verb{urlraw}
-      \verb http://www.gnu.org/licenses/agpl-3.0.de.html
-      \endverb
-      \verb{url}
-      \verb http://www.gnu.org/licenses/agpl-3.0.de.html
-      \endverb
-    \endentry
-    \entry{mustermann:2012}{unpublished}{}
-      \name{author}{1}{}{%
-        {{hash=30701365ff35d71d636382710e9d1ca7}{%
-           family={Mustermann},
-           familyi={M\bibinitperiod},
-           given={Max},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Musterstadt}%
-      }
-      \strng{namehash}{30701365ff35d71d636382710e9d1ca7}
-      \strng{fullhash}{30701365ff35d71d636382710e9d1ca7}
-      \strng{bibnamehash}{30701365ff35d71d636382710e9d1ca7}
-      \strng{authorbibnamehash}{30701365ff35d71d636382710e9d1ca7}
-      \strng{authornamehash}{30701365ff35d71d636382710e9d1ca7}
-      \strng{authorfullhash}{30701365ff35d71d636382710e9d1ca7}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Studienarbeit}
-      \field{title}{tolles Musterthema}
-      \field{year}{2012}
-    \endentry
-  \enddatalist
-\endrefsection
-\endinput
+\bibitem{Kernel_2023_wikipedia}
+``Kernel image processing.''
+  \url{http://en.wikipedia.org/wiki/Kernel_%28image_processing%29}, 2023.
 
+\bibitem{J.F._Blinn_2005_ieee}
+J.~Blinn, ``What is a pixel?,'' 2005.
+\newblock \url{{https://ieeexplore.ieee.org/abstract/document/1510545}}.
+
+\bibitem{Vladimir_Chernov_2023_sciencedirect}
+V.~Chernov, ``Integer-based accurate conversion between rgb and hsv color
+  spaces,'' 2015.
+\newblock
+  \url{{https://www.sciencedirect.com/science/article/pii/S0045790615002827}}.
+
+\bibitem{Dr._Daniel_Slieter_2023_dhbw-stuttgart}
+D.~D. Slieter, ``Digitale bildverarbeitung bildvorverarbeitung,'' 2023.
+\newblock
+  \url{https://elearning.dhbw-stuttgart.de/moodle/pluginfile.php/497263/mod_resource/content/1/BV_3_Bildvorverarbeitung_v9.pdf}.
+
+\bibitem{Hannes_Bonasch_2023}
+H.~Bonasch, ``Strategien zur adaptiven gewichtung von daten- und
+  glattheitstermen in variationsansätzen zur bildentrauschung,'' 2023.
+\newblock \url{http://elib.uni-stuttgart.de/bitstream/11682/10264/1/bonasch.pdf
+  }.
+
+\bibitem{Jürgen_Beyerer_Fernando_Puente_León_Christian_Frese__2023_springer}
+F.~P. L. . C.~F. Jürgen~Beyerer, {\em Automatische Sichtprüfung}.
+\newblock Springer, 2016.
+\newblock \url{{http://link.springer.com/chapter/10.1007/978-3-662-47786-1_9}}.
+
+\bibitem{Noor_A._Ibraheem_2012_psu}
+N.~A. Ibraheem, ``Understanding color models: A review,'' 2012.
+\newblock
+  \url{https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=75e9c6dcaeaa31fd60e61a69aaba7e706b97e4ad}.
+
+\bibitem{AHMED_SHIHAB_AHMED_2018_jatit}
+A.~S. AHMED, ``Comparative study among sobel, prewitt and canny edge detection
+  operators used in image processing,'' 2018.
+\newblock \url = {http://www.jatit.org/volumes/Vol96No19/20Vol96No19.pdf},.
+
+\bibitem{Xin-Yi_Gong_2018_springer}
+X.-Y. Gong, ``An overview of contour detection approaches | springerlink,''
+  2018.
+\newblock \url{https://link.springer.com/article/10.1007/s11633-018-1117-z}.
+
+\bibitem{Sambarta_Dasgupta_2009_springer}
+S.~Dasgupta, ``Automatic circle detection on digital images with an adaptive
+  bacterial foraging algorithm,'' 2009.
+\newblock \url{https://link.springer.com/article/10.1007/s00500-009-0508-z}.
+
+\bibitem{G.B._Coleman_1979_ieee}
+G.~Coleman, ``Image segmentation by clustering,'' 1979.
+\newblock \url{https://ieeexplore.ieee.org/abstract/document/1455596}.
+
+\bibitem{Don_Lancaster_2007_ollintec}
+D.~Lancaster, ``A review of some image pixel interpolation algorithms,'' 2007.
+\newblock \url{http://ollintec.com/pimagenes/interpolacion/pixintpl.pdf}.
+
+\bibitem{S._Sridhar_2014_mecs-press}
+S.~Sridhar, ``Wavelet transform techniques for image compression - an
+  evaluation,'' 2014.
+\newblock
+  \url{https://www.mecs-press.org/ijigsp/ijigsp-v6-n2/IJIGSP-V6-N2-7.pdf}.
+
+\bibitem{H._Burkhardt_uni-freiburg}
+H.~Burkhardt, ``Signal- und bildtransformationen,''
+\newblock
+  \url{https://lmb.informatik.uni-freiburg.de/lectures/old_lmb/bildverarbeitung/DBV-I_Kap3.pdf}.
+
+\bibitem{Shambhavi_Jain_2017_ieee}
+S.~Jain, ``Comparative study on sift and surf face feature descriptors | ieee
+  conference publication | ieee xplore,'' 2017.
+\newblock \url{https://ieeexplore.ieee.org/document/7975187}.
+
+\bibitem{History_of_chess_engines_2023_wikipedia}
+``History of chess engines.''
+  \url{https://en.wikipedia.org/wiki/History_of_chess_engines}, 2023.
+
+\bibitem{Chris_Higgins_2017_mentalfloss}
+C.~Higgins, ``A brief history of deep blue, ibm's chess computer,'' 2017.
+\newblock
+  \url{https://www.mentalfloss.com/article/503178/brief-history-deep-blue-ibms-chess-computer}.
+
+\bibitem{Larry_Greenemeier_2017_scientificamerican}
+L.~Greenemeier, ``20 years after deep blue: How ai has advanced since
+  conquering chess - scientific american,'' 2017.
+\newblock
+  \url{https://www.scientificamerican.com/article/20-years-after-deep-blue-how-ai-has-advanced-since-conquering-chess/}.
+
+\bibitem{Lague_Sebastian_2021_youtube}
+S.~Lague, ``Coding adventure: Chess.''
+  \url{https://www.youtube.com/watch?v=U4ogK0MIzqk&t=1455s}, 2021.
+
+\bibitem{Diderich2001}
+C.~G. Diderich and M.~Gengler, {\em Minimax game tree searchingMinimax Game
+  Tree Searching}.
+\newblock Springer US, 2001.
+
+\bibitem{Aayush_Parashar_2023_springer}
+A.~K. Parashar, Aayushand~Jha and M.~Kumar, {\em Analyzing a Chess Engine Based
+  on Alpha--Beta Pruning, Enhanced with Iterative Deepening}.
+\newblock Springer Nature Singapore, 2022.
+
+\bibitem{Move_Ordering_2023_chessprogramming}
+``Move ordering.'' \url{https://www.chessprogramming.org/Move_Ordering}, 2023.
+
+\bibitem{Jos_W._H_1970_researchgate}
+J.~W. H, ``Transposition tables in computer chess,'' 1970.
+\newblock
+  \url{https://www.researchgate.net/publication/2686280_Transposition_Tables_in_Computer_Chess}.
+
+\bibitem{doi:10.1126/science.aar6404}
+D.~Silver, T.~Hubert, J.~Schrittwieser, I.~Antonoglou, M.~Lai, A.~Guez,
+  M.~Lanctot, L.~Sifre, D.~Kumaran, T.~Graepel, T.~Lillicrap, K.~Simonyan, and
+  D.~Hassabis, ``A general reinforcement learning algorithm that masters chess,
+  shogi, and go through self-play,'' {\em Science}, vol.~362, no.~6419,
+  pp.~1140--1144, 2018.
+\newblock \url{https://www.science.org/doi/abs/10.1126/science.aar6404}.
+
+\bibitem{David_Silver_2023_deepmind}
+D.~Silver, ``Alphazero: Shedding new light on chess, shogi, and go,'' 2018.
+\newblock
+  \url{https://www.deepmind.com/blog/alphazero-shedding-new-light-on-chess-shogi-and-go}.
+
+\bibitem{Ziad_Salloum_2019_towardsdatascience}
+Z.~Salloum, ``Monte carlo tree search in reinforcement learning,'' 2019.
+\newblock
+  \url{https://towardsdatascience.com/monte-carlo-tree-search-in-reinforcement-learning-b97d3e743d0f}.
+
+\bibitem{Demis_Hassabis_2017_nature}
+D.~Hassabis, ``Artificial intelligence: Chess match of the century,'' 2017.
+\newblock \url{https://www.nature.com/articles/544413a#citeas}.
+
+\bibitem{Uxpin_2022_uxpin}
+Uxpin, ``Design consistency guide with 9 best practices,'' 2022.
+\newblock
+  \url{http://www.uxpin.com/studio/blog/guide-design-consistency-best-practices-ui-ux-designers/}.
+
+\end{thebibliography}
